@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Inter', sans-serif;
+}
+.sec-1{
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+.sec-2{
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+.sec-2 .content img{
+    width: 40vw;
+}
+.sec-3{
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+.sec-3 ul{
+    list-style-type: decimal;
+    line-height: 26px;
+    margin-left: 20px;
+    padding-left: 0;
+    
+}
+.sec-1 .sec-2 .sec-3, h1{
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.sec-1 .sec-2, .link{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a{
+    color: gray
+}
