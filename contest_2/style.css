@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20vw;
+    background-color: rgb(57, 55, 55);
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-right: 10px;
+}
+.sidebar img{
+    width: 15vw;
+    border-radius: 1000px;
+}
+.billionare{
+    position: relative;
+    opacity: 0.4;
+    font-weight: lighter;
+    bottom: 20px;
+}
+.sidebar button{
+    color: white;
+    opacity: 0.4;
+    font-weight: lighter;
+    padding: 5px;
+    width: 150px;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.content{
+    width: 70vw;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(58, 55, 55);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+.content p{
+    /* border: 1px solid; */
+    width: 30vw;
+    height: 40vh;
+    opacity: 0.4;
+    margin-bottom: 30px;
+    /* overflow: scroll; */
+}
+.content img{
+    border-radius: 10px;
+    width: 30vw;
+    height: 40vh;
+}
+.content a{
+    display: block;
+    margin-top: 40px;
+    color: white;
+    opacity: 0.4;
+}
+.table{
+    width: 70vw;
+    margin-top: 10px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: rgb(65, 63, 63);
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+table{
+    margin-top: 20px;
+    background-color: rgb(65, 63, 63);
+    border-collapse: collapse;
+    border-bottom: none;
+    width: 65vw;
+    height: 40vh;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 32px;  
+    
+}
+
+.table th,td{
+    color: white;
+    border: 1px solid rgb(117, 114, 114);
+    font-weight: lighter;
+    opacity: 0.4;
+    padding: 10px;
+}
+.table td{
+    border-bottom: 1px solid rgb(58, 57, 57,0);
+}
+.table .row-4 td{
+    border-bottom: 1px solid rgb(104, 97, 97);
+}
+.table h2{
+    color: white;
+    text-align: left;
+    margin-left: 2vw;
+}
+.table table .r1{
+    border-top-left-radius: 20px;
+}
+.table .r2{
+    border-top-right-radius: 10px;
+}
+.container{
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (min-width:320px) and (max-width:640px) {
+    .container{
+        position: relative;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+    }
+    .sidebar{
+        width: 90vw;
+    }
+    .sidebar img,h2,button{
+        width: 80vw;
+        position: sticky;
+        top: 0px;
+    }
+    .content{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+    .content p{
+        width: 80vw;
+        height: 70vh;
+        order:2;
+        border-radius: 10px;
+    }
+    .content img{
+        width: 80vw;
+        order:1;
+    }
+    .table{
+        width: 90vw;
+    }
+    .table table{
+        width: 80vw;
+    }
+    
+}
+@media all and (min-width:641px) and (max-width:801px) {
+    .content p{
+        overflow: scroll;
+    }
+}
