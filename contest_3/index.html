@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Contest 3_Jan23</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1>Gallery</h1>
+    <div class="container">
+        
+        <div class="left">
+            <div class="left-1">
+                <img src="./images/big-img.webp" alt="">
+            </div>
+            <div class="left-2">
+                <img src="./images/rec-img.webp" alt="">
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-1">
+                <div class="item item-1">
+                    <img src="./images/small-img.webp" alt="">
+                </div>
+                <div class="item item-2">
+                    <img src="./images/small-img.webp" alt="">
+                </div>
+                <div class="item item-3">
+                    <img src="./images/small-img.webp" alt="">
+                </div>
+                <div class="item item-4">
+                    <img src="./images/small-img.webp" alt="">
+                </div>
+            </div>
+            <div class="right-2">
+                <div class="item item-5">
+                    <img src="./images/rec-img.webp" alt="">
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="container-2">
+        <form action="input-test" method="post">
+            <div class="cont">
+                <div class="cont-1">
+                    <div>
+                        <label for="text-field">Text Field</label> <br>
+                        <input type="text" id="text-field" placeholder="Input Text" required>
+                    </div>
+                    <div class="div-2">
+                        <label for="selectField">Select Field</label> <br>
+                        <input type="text" id="selectField" class="d2-1" placeholder="Select" required>
+                        <select name="" id="selectField" class="d2-2">
+                            <option value="select"></option>
+                            <option value="select-1">Select-1</option>
+                            <option value="select-2">Select-2</option>
+                            <option value="select-3">Select-3</option>
+                            <option value="select-4">Select-4</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="add-ons">Text Area</label> <br>
+                        <textarea name="" id="add-ons" cols="30" rows="10" placeholder="Text Area"></textarea>
+                    </div>
+        
+                   
+                    <div class="div-4">
+                        <label for="textField">Text Field with Add-ons</label> <br>
+                        <input type="text" value="Label" id="textField" class="d4-1" required>
+                        <input type="text" placeholder="Input Text" id="textField" class="d4-2" required>
+                        <button type="submit" id="textField" class="d4-3">Button</button>
+                    </div>
+                </div>
+                
+                <div class="cont-2">
+                    <div>
+                        <label for=""></label> <br>
+                        <span>
+                        </span>
+                        <input type="url" placeholder="Search" required>
+                    </div>
+                    <div class="div-5">
+                        <label for=""></label> <br>
+                        <input type="number" value="1" min="1" max="10" required>
+                    </div>
+                    <div class="div-6">
+                        <input type="checkbox" class="d6-1"> Checkbox <br>
+                        <input type="radio" class="d6-2" required> Radio button <br>                
+                        <span>Switch</span>
+                        <label for="switch" class="switch">
+                            <input type="checkbox" id="switch" checked>
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

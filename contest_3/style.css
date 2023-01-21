@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* task-1 */
+.container{
+    max-width: 90vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 400px 200px;  
+    gap: 10px;  
+    padding: 20px;
+    justify-content: center;
+}
+
+.left{
+    width: 45vw;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.left-1 .left-2, img{
+    width: 46vw;
+}
+.left-1 img{
+    height: 60.5vh;
+}
+.left-2 img{
+   max-height: 200px; 
+}
+.right{
+    width: 45vw;
+    justify-content: center;
+    align-items: center;
+}
+.right-1{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
+.right-1 img{
+    max-width: 23vw;
+    max-height: 30vh;
+    margin-right: 5px;
+}
+.right-2 .item-5 img{
+    width: 46.6vw;
+    max-height: 200px;
+   
+}
+.right-2{
+    position: relative;
+}
+.right-2 a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    z-index: 1000;
+}
+h1{
+    padding: 10px;
+}
+
+/* task-2 */
+.div-2{
+    position: relative;
+}
+
+.d2-2{
+    position: absolute;
+    left: 5;
+}
+.d2-1, .d2-2{
+    border: 1px solid;
+}
+.div-4{
+    position: relative;
+}
+.d4-2{
+    position: absolute;
+    left: 0;
+    margin-left: 50px;
+}
+.d4-1{
+    position: absolute;
+    left: 0;
+}
+.d4-3{
+    position: absolute;
+    left: 0;
+    margin-left: 30vw;
+    background: none;
+    border: none;    
+}
+.div-4 .d4-2{
+    border-left: none;
+    border-top-left-radius: none;
+}
+.div-5{
+    margin-top: 5px;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    gap: 20px;
+}
+.cont div input{
+    border-radius: 10px;
+    border: 1px solid rgb(159, 150, 150);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30vw;
+}
+
+.cont button{
+    margin-top: 10px;
+}
+.cont select{
+    padding: 10px;
+    right: 0;
+    border-left: none;
+    border-right: none;
+    border-right: 1px solid gray;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.cont .div-5 input{
+    width: 7vw;
+    margin-bottom: 10px;
+}
+.cont .div-6{
+    position: relative;
+}
+.d6-1, .d6-2, .switch{
+    position: absolute;
+    left: 0;
+    margin-left: 0px;
+}
+.cont textarea{
+    border-radius: 10px;
+}
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin-left: 80px;
+}
+.slider{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(169, 185, 198);
+    transition: .4s;
+    border-radius: 20px;
+}
+.switch input{display: none}
+.slider::before{
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    left: 5px;
+    bottom: 5px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 20px;
+}
+input:checked + .slider{
+    background-color: darksalmon;
+}
+
