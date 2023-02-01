@@ -1,0 +1,44 @@
+
+.carousel-item img {
+  width: 100vw;
+  height: 90vh;
+}
+.material-icons-outlined {
+  font-size: 15px;
+  color: gray;
+}
+.carousel{
+    margin:0 20px !important;
+    margin-top: 95px !important;
+}
+form{
+    margin:0 20px !important;
+    margin-top: 20px !important;
+}
+.table a {
+  text-decoration: none;
+}
+.table th {
+  width: 100vw !important;
+
+}
+.navbar {
+  background-color: white;
+}
+.d-lg-flex{
+    margin:0 20px !important;
+    margin-top: 20px !important;
+}
+.accordion{
+    margin:0 15px !important;
+    margin-top: 20px !important;
+}
+
+.navbar-brand {
+  display: none !important;
+}
+@media all and (max-width: 1005px) {
+  .navbar-brand {
+    display: block !important;
+  }
+}
